@@ -5,7 +5,7 @@ Commands
 
 #1 Check if request is handled by Fastly.
 
-`curl -svo /dev/null test.pif.today -H "Fastly-Debug: true"`
+`curl -svo /dev/null domain.com -H "Fastly-Debug: true"`
 
 To that end the above curl request if handled by Fastly will emit some extra Fastly debug headers.
 
